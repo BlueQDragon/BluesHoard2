@@ -1,0 +1,181 @@
+/* RESET STYLESHEET */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: gelica;
+    src: url(../fonts/Gelica/Fontspring-DEMO-gelica-semibold.otf);
+}
+header {
+    padding: 10px;
+}
+
+.logowithouttext h3 {
+    margin: 0;
+}
+
+.logo {
+    max-width: 400px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-styling {
+    margin-left: 20px;
+}
+/* HEADERS*/
+header {
+    background-color: rgb(208, 232, 255);
+    text-align: center;
+}
+h1 {
+    font-family: gelica, 'Times New Roman', serif;
+    color: rgb(4, 20, 33);
+    text-shadow: 2px 2px #ffffff;
+}
+h1 img {
+    width: 20%;
+}
+h1 a {
+    font-family: gelica, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    float: left;
+    text-shadow: 2px 2px #10163ff2;
+
+}
+
+h1:hover {
+    color: rgb(70, 255, 236);
+
+}
+h1 a:hover {
+    color: rgb(70, 255, 236);
+
+}
+h2 {
+    font-family: gelica, 'Times New Roman', serif;
+    color: rgb(4, 20, 33);
+    float: right;
+    font-size: 25px;
+}
+/** NAVIGATION */
+
+
+nav {
+    display: flex;
+    background-color: rgb(208, 232, 255)
+}
+.nav-styling {
+    float: right;
+}
+ul {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+nav ul li {
+    list-style-type: none;
+}
+ nav ul li a {
+    color: rgb(103, 107, 111);
+    font-family: gelica, 'Times New Roman', serif;
+    font-size: 50px;
+    padding: 15px;
+    float: right;
+    list-style-type: none;
+    margin-left: 150px;
+ }
+
+ nav ul li a:hover {
+    color: rgb(70, 255, 236);
+ }
+
+ /* MAIN SECTION */
+#info {
+    text-align: center;
+    font-size: 50px;
+}
+ #header {
+    color:#194c8ef2;
+    text-align: center;
+ }
+ .maintext {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    font-family: gelica, 'Times New Roman', serif;
+    background-color: rgb(255, 252, 224);
+ }
+ pre {
+    font-family: gelica, 'Times New Roman', serif;
+    font-size: larger;
+ }
+ #header2 {
+    color:#194c8ef2;
+    text-align: center;
+    font-size: 50px;
+ }
+ #header1 {
+    color:#194c8ef2;
+    text-align: center;
+ }
+
+ /*FOOTER*/
+
+.footer {
+    background-color: #ffd634;
+}
+
+form input {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 100px;
+    background-color: #a0c8ff;
+    border: #ffffff;
+    justify-content: space-around;
+    font-family: Gelica, 'Times New Roman', serif;
+}
+h3 {
+    display: flex;
+    font-family: Gelica, 'Times New Roman', serif;
+    font-size: 25px;
+}
+h4 {
+    display: flex;
+    float: left;
+    font-family: Gelica, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.socials h3 {
+    font-family: Gelica, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-left: 1250px;
+    margin-bottom: 40px;
+}
+
+.insta {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1000px;
+    background-color: #ffd634;
+    justify-content: space-around;
+    font-family: Gelica, 'Times New Roman', serif;
+    
+}
